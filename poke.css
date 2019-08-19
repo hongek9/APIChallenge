@@ -1,0 +1,107 @@
+.body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.wrapper{
+    background-image:url(assets/background-hero.png);
+    position:absolute;
+    top:0;
+    left:0;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    background-repeat:no-repeat;
+    z-index:-2;
+
+}
+
+.backgroundOne{
+    background-image: url(assets/pokemon_logo.png);
+    position: relative;
+    /* display:block; */
+    /* background-size:cover; */
+    width: 38vw;
+    height:16vh;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+    top:-6em;
+    z-index:0;
+    
+
+}
+
+#backgroundTwo{
+    background-image:url(assets/close_pokeball2.png);
+    position: relative;
+    display:block;
+    background-size:cover;
+    width: 450px;
+    height:450px;
+    background-repeat: no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+    top: 3em;
+    z-index:1;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    top:3em;
+    font-family: 'Ranchers', cursive;
+    font-size:50px;
+    color: #3b58a3;
+    text-shadow: -3px 0 #ffcc03,  0 3px #ffcc03, 3px 0 #ffcc03, 0 -3px #ffcc03;
+    z-index:0;
+}
+
+.search{
+    position:relative;
+    top:10em;
+    left: 5em;
+}
+
+label{
+    position:relative;
+    top:6.75em;
+    left: 3em;
+    font-family:'Ranchers', cursive;
+    color:#3b58a3;
+    text-shadow: -2px 0 #ffcc03,  0 2px #ffcc03, 2px 0 #ffcc03, 0 -2px #ffcc03;
+    font-size: 20px;
+}
+
+.submit{
+    position: relative;
+    font-family: 'Ranchers', cursive;
+    font-size: 20px;
+    color:#3b58a3;
+    text-shadow: -2px 0 #ffcc03,  0 2px #ffcc03, 2px 0 #ffcc03, 0 -2px #ffcc03;
+    border-radius:50% 50%;
+    background-color:white;
+    top:9.5em;
+    left:9.5em;
+}
+
+
+section{
+    position: relative;
+    top:-0.5em;
+    left:8.5em;
+    font-family: 'Ranchers', cursive;
+    font-size:22px;
+    color:#3b58a3;
+    text-shadow: -2px 0 #ffcc03,  0 2px #ffcc03, 2px 0 #ffcc03, 0 -2px #ffcc03;
+}
+
+.pokeImg{
+    position:relative;
+    top:2.5em;
+    left: -3em;
+    height:250px;
+    width:250px;
+}
+
