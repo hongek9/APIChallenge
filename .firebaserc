@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "pokemonsearchpage"
+    "default": "pokemonsearchpage",
+    "pokemonsearchpage": "pokemonsearchpage"
   }
 }
